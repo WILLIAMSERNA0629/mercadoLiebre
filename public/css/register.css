@@ -1,0 +1,67 @@
+/* .formulario legend {
+    background-color: #005485;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 40px;
+} */
+
+.campo {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 70%;
+    
+}
+
+.campo label {
+    flex-basis: 100px;
+    border-radius: 70%;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="tel"],
+.campo input[type="date"],
+.campo input[type="password"],
+textarea {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 10px;
+}
+.photo{
+    padding-bottom: 15px;
+   
+}
+.enviar{
+    color: white;
+    background-color: #1259c3;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+}
+.reset{
+    color: white;
+    background-color: #1259c3;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+}
+/* .formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+} */
+
+ fieldset {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15px;  
+    
+} 
